@@ -48,28 +48,28 @@ const viteConfig: UserConfig = {
             {
                 text: '分布式',
                 items: [
-                    {text: 'RPC框架', link: '/fenbushi/RPC/'},
-                    {text: 'Raft一致性算法', link: '/fenbushi/raft'},
+                    {text: 'RPC框架', link: '/fenbushi/RPC/index'},
+                    {text: 'Raft一致性算法', link: '/fenbushi/raft/index'},
                 ]
             },
             {
                 text: '思维导图',
                 items: [
-                    {text: '通信演变', link: '/maps/',activeMatch: '/maps'},
-                    {text: 'spring中Bean周期', link: '/resources/', activeMatch: '/resources'}
+                    {text: '通信演变', link: '/maps/tcp/index'},
+                    {text: 'spring中Bean周期', link: '/maps/springbean/index'},
                 ]
             },
             {
                 text: '算法之路',
                 items: [
-                    {text: '多线程', link: '/mianshi/threads'},
-                    {text: '面试算法题', link: '/suanfa'}
+                    {text: '多线程', link: '/mianshi/threads/index'},
+                    {text: '面试算法题', link: '/suanfa/index'},
                 ]
             },
             {
                 text: '面经总结',
                 items: [
-                    {text: '多线程', link: '/mianshi/threads'},
+                    {text: '多线程', link: '/mianshi/threads/index'},
                     {text: '大厂面经', link: '/mianshi/bigs'},
                 ]
             },

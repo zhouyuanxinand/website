@@ -11,14 +11,15 @@ const wechatIcon = '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-
 
 // https://vitepress.dev/reference/site-config
 const viteConfig: UserConfig = {
+    base:'/website/',
     srcDir: 'docs',
     lang: 'zh-Hans',
     title: "ZhouYuanXin的个人网站",
     description: "周园鑫的个人技术博客",
     head: [
-        ['link', {rel: 'apple-touch-icon', sizes: '180x180', href: '/website//favicon/Ilogo.png'}],
-        ['link', {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/website//favicon/Ilogo.png'}],
-        ['link', {rel: 'icon', type: 'image/png', sizes: '16x16', href: '/website//favicon/Ilogo.png'}],
+        ['link', {rel: 'apple-touch-icon', sizes: '180x180', href: '/website/favicon/Ilogo.png'}],
+        ['link', {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/website/favicon/Ilogo.png'}],
+        ['link', {rel: 'icon', type: 'image/png', sizes: '16x16', href: '/website/favicon/Ilogo.png'}],
         ['link', {rel: 'manifest', href: '/favicon/site.webmanifest'}],
         ['meta', {name: 'baidu-site-verification', content: 'codeva-QImGr6GPzt'}],
         ['meta', {name: 'google-site-verification', content: 'jIsu9AMup9671jCmwUv3HPEnckR57qCZmNrwE8_8aWU'}]

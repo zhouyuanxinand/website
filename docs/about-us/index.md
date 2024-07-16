@@ -13,8 +13,4 @@ round
 🥰 请联系我
 </el-button>
 
-<script setup>
-import { ElButton } from  'element-plus';
-import { useRouter } from 'vitepress';
-import dualQRCode from '../components/dualQRCode.vue';
-</script>
+![WeChat QR Code](wechat.jpg)

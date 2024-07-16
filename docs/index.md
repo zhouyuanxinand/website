@@ -18,7 +18,7 @@ hero:
       link: /new
     - theme: alt
       text: 🏆个人技术栈
-      link: /activities/240715-learn-swift-challenge/
+      link: /another/skill/index
 
 features:
   - title: 🍎 座右铭

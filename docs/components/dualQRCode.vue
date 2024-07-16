@@ -13,7 +13,7 @@ import { ElImage } from 'element-plus'
 const qrCodes = [
   {
     name: 'CSDN',
-    src: '/QR-code/qq-group.jpg',
+    src: '/QR-code/csdn.jpg',
   },
   {
     name: '微信',
@@ -24,7 +24,7 @@ const qrCodes = [
 
 <style scoped>
 .demo-image__placeholder .block {
-  padding: 40px 0;
+  padding: 45px 0;
   text-align: center;
   display: inline-block;
   width: 50%;

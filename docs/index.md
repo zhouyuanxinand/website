@@ -14,10 +14,10 @@ hero:
       text: 🎈个人信息
       link: /about-us/index
     - theme: alt
-      text: 👔个人简历
-      link: /new
+      text: 👔个人简历(持续更新)
+      link: /another/me/index
     - theme: alt
-      text: 🏆个人技术栈
+      text: 🏆个人技术栈(持续更新)
       link: /another/skill/index
 
 features:

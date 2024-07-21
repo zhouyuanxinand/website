@@ -44,6 +44,7 @@ const viteConfig: UserConfig = {
                 text: '其他知识',
                 items: [
                     {text: '高斯波色取样', link: '/another/gaosi/index'},
+                    {text: '测试开发', link: '/another/text/index'},
                 ]
             },
             {

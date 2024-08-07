@@ -70,12 +70,14 @@ class LRUCache {
         x.next.prev = x.prev;
     }
 
-    // 在链表头添加一个节点（把一本书放在最上面）
+   // 在链表头添加一个节点（把一本书放在最上面）
     private void pushFront(Node x) {
         x.prev = dummy;
         x.next = dummy.next;
-        x.prev.next = x;
-        x.next.prev = x;
+        //正确的顺序是先设置 x 的 next 和 prev 指针，
+        //然后再更新链表中其他节点的指针，以确保在任何时候链表的链接都是正确的
+        dummy.next.prev= x;
+        dummy.next = x;
     }
 }
 ```
